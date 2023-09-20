@@ -30,7 +30,7 @@ Headers:
     Content-Type: multipart/form-data
 Body:
     - file: <Image File>
-
+```
 
 ### Response
 
