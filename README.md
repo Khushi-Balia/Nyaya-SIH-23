@@ -66,3 +66,5 @@ Make sure to replace `<PATH_TO_IMG>` with the actual path to the image you want 
 The API will respond with the verification results.
 
 
+## API Documentation
+For detailed API documentation and usage, refer to the API documentation [here](./api_documentation.md).
