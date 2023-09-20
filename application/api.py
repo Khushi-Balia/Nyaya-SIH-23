@@ -6,7 +6,7 @@ import os,argparse
 import pytesseract
 from PIL import Image
 import re
-
+import json
 
       
 class VerifyDocumentAPI(Resource):

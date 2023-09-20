@@ -21,6 +21,8 @@ chmod +x local_setup.sh
 ./local_setup.sh
 ```
 
+![Steps1and2](./Images/image.png)
+
 ### Step 3: Make the API run script executable
 
 ```bash
@@ -32,6 +34,8 @@ chmod +x api_run.sh
 ```bash
 ./api_run.sh
 ```
+
+![Step3and4](./Images/image-1.png)
 
 ## Testing the API
 
@@ -47,6 +51,8 @@ curl -F "file=@/home/user/<PATH_TO_IMG>" http://127.0.0.1:5000/verify
 
 Make sure to replace `<PATH_TO_IMG>` with the actual path to the image you want to verify.
 
+![CURL_Verified](./Images/image-2.png)
+
 ### Using Postman
 
 1. Open Postman.
@@ -58,4 +64,5 @@ Make sure to replace `<PATH_TO_IMG>` with the actual path to the image you want 
 7. Click the "Send" button to make the request.
 
 The API will respond with the verification results.
+
 
